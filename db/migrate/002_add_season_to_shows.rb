@@ -1,3 +1,5 @@
+require_relative '../app/models/show.rb'
+
 class AddSeasonToShows < ActiveRecord::Migration
 
   def change
