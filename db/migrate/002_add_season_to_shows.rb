@@ -1,5 +1,7 @@
-class AddSeasonToShows 
+class AddSeasonToShows
 
-  def change 
+  def change
     add_column :season, :string
+  end
+  
 end
